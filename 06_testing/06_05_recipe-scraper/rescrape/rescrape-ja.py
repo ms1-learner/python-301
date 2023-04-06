@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-BASE_URL = "https://codingnomads.github.io/recipes/"
+BASE_URL = "https://woven-dojo.github.io/recipes/"
 
 def get_page_content(url):
     """URLへのHTTP呼び出しによる応答を取得します。"""
